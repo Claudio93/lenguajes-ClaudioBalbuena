@@ -18,8 +18,8 @@ public class Lemguajes140915 {
         // TODO code application logic here
         
         System.out.println("mi primer programa de JAVA");
+       
+        Imc objeto=new Imc(); 
+        System.out.println(objeto.calcular()); //ocupa los valores //metodo
     }
-   
-    
-    
-}
+   }
