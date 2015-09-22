@@ -17,9 +17,13 @@ public class Imc {
    public Imc(){   //inicializar
        peso=78f;
        altura=1.68f;
-       
-       
-   }
+      }
+    
+   
+   
+   
+   
+            
 public float calcular(){
     float resultadoImc=peso/(altura*altura);
     return resultadoImc;
