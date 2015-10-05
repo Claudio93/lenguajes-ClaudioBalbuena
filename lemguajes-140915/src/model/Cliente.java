@@ -5,10 +5,8 @@ package model;
 public class Cliente {
     
     
-    String nombre;
-    String email;
-    Direccion direccion; // (Direccion metodo) composcion agregacion 
-    
-    
-    
+   private String nombre;
+   private  String email;
+   private  Direccion direccion; // (Direccion metodo) composcion agregacion
+   
 }

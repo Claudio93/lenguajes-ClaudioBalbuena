@@ -15,4 +15,22 @@ public class Direccion {
     String colonia;
     String municipio;
     
+
+   public String getCalle(){
+   return calle;
+   } 
+   
+    public String getColonia(){
+    return colonia;
+    }
+    
+    public String getMunicipio(){
+    return municipio;
+    }
+    
+    public void setCalle(String calle){  
+       calle=calle;
+      }
+        
+    
 }
