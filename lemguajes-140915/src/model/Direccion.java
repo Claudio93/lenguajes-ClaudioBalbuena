@@ -29,8 +29,16 @@ public class Direccion {
     }
     
     public void setCalle(String calle){  
-       calle=calle;
+       this.calle=calle;   //this.calle(ATRIBUTO)
       }
-        
     
-}
+     public void setColonia(String colonia){  
+       this.colonia=colonia;
+               }
+     
+     public void setMunicipio(String municipio){  
+       this.municipio=municipio;
+               }
+   
+
+    }
