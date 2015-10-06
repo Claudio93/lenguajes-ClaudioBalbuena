@@ -14,7 +14,26 @@ public class Direccion {
     private String calle;
     private String colonia;
     private String municipio;
+    
+/**
+ *  ESTE CONSTRUCTOR SIRVE PARA CREAR UNA DIRECCION
+ * @param calle EL PRIMER PARAMETRO ES EL VALOR DE LA CALLE
+ * @param colonia  EL SEGUNDO PARAETRO ES EL VALOR DE LA COLONIA
+ * @param municipio  ESTE PARAMETRO ES EL VALOR DEL MUNICIPIO
+ */
+    public Direccion(String calle, String colonia, String municipio) {
+        this.calle = calle;
+        this.colonia = colonia;
+        this.municipio = municipio;
+    }
+    
+    
 
+    public Direccion() {
+    }
+    
+   
+ 
     /**
      * @return Este metodo te regresa el valor que tiene 
      * el atributo calle
