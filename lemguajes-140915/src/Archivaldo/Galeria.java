@@ -9,8 +9,10 @@ package Archivaldo;
  *
  * @author T-107
  */
-public class Galeria {
-    
+
+import java.io.*;
+public class Galeria implements Serializable{
+    // PARA SERIALIZAR DEBE TENER IMLEMENTS Y SERIALIZABLE
     private  String titulo;
           private   String descripcion;
 
