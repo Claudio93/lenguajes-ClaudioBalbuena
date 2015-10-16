@@ -6,11 +6,17 @@
  */
 package colecciones;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Claudio
  */
-public class Direccion {
+
+
+
+
+ public class Direccion implements Serializable{
     
     private String calle;
     private long cp;

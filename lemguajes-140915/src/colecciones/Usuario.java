@@ -5,9 +5,11 @@
  * and open the template in the editor.
  */
 package colecciones;
+import java.io.Serializable;
 
 
-public class Usuario {
+import java.util.*;
+public class Usuario implements Serializable{
     private String login;
     private String pasword;
     private Direccion direccion;

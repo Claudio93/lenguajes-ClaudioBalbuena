@@ -5,10 +5,6 @@
  */
 package excpciones;
 
-/**
- *
- * @author T-107
- */
 public class PrimeraExcepciones {
     public static void main(String[] args){
     float x=0;
