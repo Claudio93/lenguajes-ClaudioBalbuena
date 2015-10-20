@@ -78,5 +78,10 @@ import java.io.Serializable;
     public void setMunicipio(String municipio) {
         this.municipio = municipio;
     }
+
+    void getColonia(String colonia) {
+     this.colonia=colonia;
+    }
    }
+
 
