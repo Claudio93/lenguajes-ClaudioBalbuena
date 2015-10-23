@@ -119,9 +119,9 @@ public class FormulariosUsuarios extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 435, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 535, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton2))
-                .addContainerGap(126, Short.MAX_VALUE))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -129,8 +129,8 @@ public class FormulariosUsuarios extends javax.swing.JFrame {
                 .addGap(21, 21, 21)
                 .addComponent(jButton2)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(199, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(207, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("BUSCAR TODOS ", jPanel1);
@@ -163,9 +163,9 @@ public class FormulariosUsuarios extends javax.swing.JFrame {
             
             
              jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [tamano][2],
+            new Object [tamano][5],
             new String [] {
-                " Login de usuario: ", " Password de usuario: "
+                " Login de usuario ", " Password de usuario "," Calle "," Colonia "," Municipio "
             }
         ));
               //llenamos la tabla con el arreglo con el arraylist
@@ -173,6 +173,14 @@ public class FormulariosUsuarios extends javax.swing.JFrame {
              for(Usuario us:p2.buscarTodos()){
              jTable1.setValueAt(us.getLogin(), 0, 0);
              jTable1.setValueAt(us.getPasword(), 0, 1);
+             jTable1.setValueAt(us.getDireccion().getCalle(),indice,2);
+             jTable1.setValueAt(us.getDireccion().getColonia(),indice,3);
+             jTable1.setValueAt(us.getDireccion().getMunicipio(),indice,4);
+             
+             
+             
+             
+             
              indice++;    //incrementar 
         }
              
