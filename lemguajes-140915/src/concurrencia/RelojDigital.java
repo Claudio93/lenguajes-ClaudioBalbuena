@@ -8,13 +8,14 @@ package concurrencia;
 import java.util.Calendar;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 /**
  *
- * @author Claudio
+ * 
  */
-public interface RelojDigital javax.swing.JFrame {
-    
- /**
+public class RelojDigital extends javax.swing.JFrame {
+
+    /**
      * Creates new form RelojDigital
      */
     public RelojDigital() {
@@ -70,16 +71,16 @@ public interface RelojDigital javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(67, 67, 67)
                 .addComponent(jLabel1)
-                .addContainerGap(607, Short.MAX_VALUE))
+                .addContainerGap(311, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(29, 29, 29)
+                .addGap(35, 35, 35)
                 .addComponent(jLabel1)
-                .addContainerGap(333, Short.MAX_VALUE))
+                .addContainerGap(189, Short.MAX_VALUE))
         );
 
         pack();
@@ -123,8 +124,7 @@ public interface RelojDigital javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
-    
-    
-    
-    
-    
+}
+
+
+

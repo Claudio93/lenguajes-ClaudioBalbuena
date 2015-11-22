@@ -52,18 +52,19 @@ public static float apertura=0.01f;
     }
         //VAMOS A GRAFICAR LA FUNCION SENO 
     
-        double  xseno0=-2*Math.PI-1;
+        double xseno0=-2*Math.PI-1;
         double xseno1=-2*Math.PI;
-        double  ysen0;
-        double  ysen1;
+        double  yseno0;
+        double  yseno1;
         
-        for (double i=0; i<=200; i++ ){
-        y0=apertura*x0*x0;
-        y1=apertura*x1*x1;
+        for (int i=0; i<=1000; i++){
+        yseno0=50*Math.sin(xseno0*25);
+        yseno1=50*Math.sin(xseno1*25);
             
-        ysen0=Math.sin(xseno0);
-        ysen1=Math.sin(xseno1);
-        
+       g.drawLine((int)xseno0, (int)yseno0, (int)xseno1,(int)yseno1);
+       
+       xseno0++;
+       xseno1++;
     }
 }
 }
