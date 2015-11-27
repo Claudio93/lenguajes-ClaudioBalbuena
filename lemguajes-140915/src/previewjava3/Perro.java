@@ -9,11 +9,15 @@ package previewjava3;
  *
  * @author T-107
  */
-public class Perro {
-    
-       public String hacerRuido(){
-        return "gaugau!!!";
+public class Perro implements ComportaminetoRuido{
+
+    @Override
+    public String hacerRuido() {
+        return "gua-gua-gua";
     }
     
-    
+
+
+
+
 }

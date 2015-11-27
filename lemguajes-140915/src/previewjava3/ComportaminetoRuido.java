@@ -9,12 +9,17 @@ package previewjava3;
  *
  * @author T-107
  */
-public class Vaca implements ComportaminetoRuido{
+
+//interface runable public interface 
+public interface ComportaminetoRuido {
+    
+
     
     
-    @Override
-    public String hacerRuido(){
-        return "muuuuu!!!";
-    }
+    public String hacerRuido();
+    //implementacion abstracto
+    
+    
+    
     
 }

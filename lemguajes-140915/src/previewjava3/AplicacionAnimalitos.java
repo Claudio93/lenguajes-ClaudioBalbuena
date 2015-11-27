@@ -11,7 +11,12 @@ package previewjava3;
  */
 public class AplicacionAnimalitos {
     public static void main(String[] args) {
-        Raton r = new Raton();
+        ComportaminetoRuido r= new Vaca();
+        
+        
+        
+        
+        
         
         System.out.println(botonSonido(r));
         //Aqui el niño seleccionara el listado de un animalito
@@ -21,9 +26,10 @@ public class AplicacionAnimalitos {
         
     }
     
-    public static String botonSonido(Raton r){
+    public static String botonSonido(ComportaminetoRuido r){
         return r.hacerRuido();
-        }
+   }
+}   
+    
 
 
-}

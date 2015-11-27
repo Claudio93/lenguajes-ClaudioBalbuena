@@ -9,8 +9,12 @@ package previewjava3;
  *
  * @author T-107
  */
-public class Raton {
-       public String hacerRuido(){
+public class Raton implements ComportaminetoRuido{
+      
+    
+    @Override
+    
+    public String hacerRuido(){
         return "iiiii-iiii-iiii";
     }
     
